@@ -1,0 +1,84 @@
+/* Critical CSS - Above the fold styles */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, img, ul, ol, li, form, label, fieldset, input, textarea, iframe { margin: 0; padding: 0; border: 0; }
+
+html { height: 100%; }
+body { 
+  width: 100%; 
+  height: 100%; 
+  color: #333333;
+  font: 16px/1 "Lato", sans-serif;
+  background: #ffffff;
+  margin: 0 !important;
+  padding: 0 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container, .wsite-footer { 
+  max-width: 1000px; 
+  margin: 0 auto; 
+  padding: 3.5em 2em; 
+  box-sizing: border-box; 
+}
+
+#content { 
+  position: relative; 
+  width: 100%; 
+  background: #f2f2f2; 
+}
+
+#banner {
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wsite-section-bg-image {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Critical navigation styles */
+.wsite-menu-default {
+  display: block;
+  position: relative;
+  z-index: 1000;
+}
+
+.wsite-menu-default a {
+  font-family: "Times New Roman" !important;
+  text-transform: uppercase !important;
+  font-size: 17px !important;
+}
+
+/* Critical typography */
+.wsite-content-title {
+  font-family: "Times New Roman" !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  text-transform: none !important;
+  color: #f6aaf0 !important;
+}
+
+.paragraph {
+  font-family: "Maven Pro" !important;
+  color: #818181 !important;
+  font-size: 18px !important;
+  line-height: 30px !important;
+}
+
+/* Critical image styles */
+.wsite-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Critical responsive */
+@media screen and (max-width: 768px) {
+  .container { padding: 2em 1em; }
+  .paragraph { font-size: 16px !important; line-height: 26px !important; }
+} 

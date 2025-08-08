@@ -15,14 +15,14 @@
 		<meta property="og:description" content="Empowering women in finance through networking, leadership development, and professional growth opportunities." />
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="https://womenonwallstreet.com" />
-		<meta property="og:image" content="/uploads/1/4/9/1/149148346/wow1_orig.png" />
+		<meta property="og:image" content="/images/brand/wow1_orig.png" />
 		<meta property="og:site_name" content="Women on Wall Street" />
 		
 		<!-- Twitter Card Meta Tags -->
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:title" content="Women on Wall Street - Home" />
 		<meta name="twitter:description" content="Empowering women in finance through networking, leadership development, and professional growth opportunities." />
-		<meta name="twitter:image" content="/uploads/1/4/9/1/149148346/wow1_orig.png" />
+		<meta name="twitter:image" content="/images/brand/wow1_orig.png" />
 		
 		<!-- Additional SEO Meta Tags -->
 		<meta name="theme-color" content="#f6aaf0" />
@@ -37,7 +37,7 @@
 			"name": "Women on Wall Street",
 			"description": "Empowering women in finance through networking, leadership development, and professional growth opportunities.",
 			"url": "https://womenonwallstreet.com",
-			"logo": "https://womenonwallstreet.com/uploads/1/4/9/1/149148346/wow1_orig.png",
+			"logo": "https://womenonwallstreet.com/images/brand/wow1_orig.png",
 			"sameAs": [
 				"https://linkedin.com/company/women-on-wall-street",
 				"https://twitter.com/womenonwallst"
@@ -48,7 +48,8 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0;">
 
-		
+
+
 		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
 <link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/old/fancybox.css?1234" />
 <link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/social-icons.css?buildtime=1234" media="screen,projection" />
@@ -112,10 +113,10 @@
 .wsite-product .wsite-product-price a {}
 }</style>
 <style>
-.wsite-background {background-image: url("/uploads/1/4/9/1/149148346/background-images/1177546391.jpg") !important;background-repeat: no-repeat !important;background-position: 50% 50% !important;background-size: 100% !important;background-color: transparent !important;background: inherit;}
+.wsite-background {background-image: url("/images/backgrounds/1177546391.jpg") !important;background-repeat: no-repeat !important;background-position: 50% 50% !important;background-size: 100% !important;background-color: transparent !important;background: inherit;}
 body.wsite-background {background-attachment: fixed !important;}.wsite-background.wsite-custom-background{ background-size: cover !important}
 </style>
-		<script src='files/templateArtifacts.js?1753546127'></script>
+		<!-- Removed templateArtifacts.js as it doesn't exist -->
 <script>
 var STATIC_BASE = '//cdn1.editmysite.com/';
 var ASSETS_BASE = '//cdn2.editmysite.com/';
@@ -392,7 +393,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 		<div id="banner">
 			<div class="wsite-elements wsite-not-footer wsite-header-elements">
 	<div class="wsite-section-wrap">
-	<div  class="wsite-section wsite-header-section wsite-section-bg-image" style="height: 634px;vertical-align: bottom;background-image: url(&quot;/uploads/1/4/9/1/149148346/background-images/502267612.jpg&quot;) ;background-repeat: no-repeat ;background-position: 50% 50% ;background-size: 100% ;background-color: transparent ;background-size: cover;" >
+	<div  class="wsite-section wsite-header-section wsite-section-bg-image" style="height: 634px;vertical-align: bottom;background-image: url(&quot;/images/backgrounds/502267612.jpg&quot;) ;background-repeat: no-repeat ;background-position: 50% 50% ;background-size: 100% ;background-color: transparent ;background-size: cover;" >
 		<div class="wsite-section-content">
 			
 				<div class="banner-content">
@@ -433,7 +434,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 
 <div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
 <a>
-<img src="uploads/1/4/9/1/149148346/fixed-img-9163-edit_orig.jpg" alt="Picture" style="width:auto;max-width:100%" />
+<img src="images/content/fixed-img-9163-edit_orig.jpg" alt="Picture" style="width:auto;max-width:100%" loading="lazy" />
 </a>
 <div style="display:block;font-size:90%"></div>
 </div></div>
@@ -464,10 +465,15 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 
 	<div class="overlay w-navpane-close"></div>
 
-	<script type="text/javascript" src="files/theme/plugins.js"></script>
-	<script type="text/javascript" src="files/theme/custom.js"></script>
+	<!-- Defer non-critical JavaScript -->
+	<!-- Performance Monitoring -->
+	<script src="performance-monitor.js"></script>
+	
+	<!-- Defer non-critical JavaScript -->
+	<script type="text/javascript" src="files/theme/files/plugins.js" defer></script>
+	<script type="text/javascript" src="files/theme/files/custom.js" defer></script>
     <div id="customer-accounts-app"></div>
-    <script src="http://cdn2.editmysite.com/js/site/main-customer-accounts-site.js?buildTime=1234"></script>
+    <script src="http://cdn2.editmysite.com/js/site/main-customer-accounts-site.js?buildTime=1234" defer></script>
 
 		
 	</body>

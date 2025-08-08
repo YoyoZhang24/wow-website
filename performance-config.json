@@ -1,0 +1,42 @@
+{
+  "imageOptimization": {
+    "enabled": true,
+    "quality": 85,
+    "maxWidth": 1200,
+    "maxHeight": 1200,
+    "formats": ["jpg", "jpeg", "png"],
+    "outputDirectory": "images/optimized"
+  },
+  "criticalCSS": {
+    "enabled": true,
+    "inline": true,
+    "file": "files/critical.css"
+  },
+  "resourceHints": {
+    "preload": [
+      "files/main_style.css",
+      "files/theme/files/plugins.js",
+      "files/theme/files/custom.js"
+    ],
+    "prefetch": [
+      "about.html",
+      "our-network.html",
+      "the-wow-experience.html"
+    ]
+  },
+  "lazyLoading": {
+    "enabled": true,
+    "images": true,
+    "iframes": true
+  },
+  "caching": {
+    "staticAssets": "1 year",
+    "images": "1 month",
+    "css": "1 week",
+    "js": "1 week"
+  },
+  "compression": {
+    "gzip": true,
+    "brotli": false
+  }
+} 
