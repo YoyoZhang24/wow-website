@@ -567,7 +567,7 @@ input:focus, .wsite-form-input:focus, .wsite-form-input--focus, .wsite-search-el
   #wsite-com-checkout-payment-order { margin-left: 0; }
 }
 #content { background-color: #ffffff; }
-body.postload #content { background-color: #f2f2f2; -webkit-transition: background-color 100ms linear 1000ms; -moz-transition: background-color 100ms linear 1000ms; -o-transition: background-color 100ms linear 1000ms; -ms-transition: background-color 100ms linear 1000ms; transition: background-color 100ms linear 1000ms; }
+body.postload #content { background-color: #ffffff; -webkit-transition: background-color 100ms linear 1000ms; -moz-transition: background-color 100ms linear 1000ms; -o-transition: background-color 100ms linear 1000ms; -ms-transition: background-color 100ms linear 1000ms; transition: background-color 100ms linear 1000ms; }
 #content > div, #header > .container { opacity: 0; }
 body.postload #content > div, .icontent #content > div { opacity: 1; -webkit-transition: opacity 400ms cubic-bezier(0,0.085,0.68,0.53) 600ms; -moz-transition: opacity 400ms cubic-bezier(0,0.085,0.68,0.53) 600ms; -o-transition: opacity 400ms cubic-bezier(0,0.085,0.68,0.53) 600ms; -ms-transition: opacity 400ms cubic-bezier(0,0.085,0.68,0.53) 600ms; transition: opacity 400ms cubic-bezier(0,0.085,0.68,0.53) 600ms; }
 .splash-page .banner-content { opacity: 0; }
@@ -579,7 +579,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: normal !important; -webkit-font-smoothing:
 @media (max-width: 768px) {
   .wsite-section, .wsite-content, .wsite-text { overflow-wrap: break-word; word-wrap: break-word; white-space: normal; box-sizing: border-box; }
   .wsite-spacer, .wsite-section { padding-top: 1em !important; padding-bottom: 1em !important; margin-top: 0 !important; margin-bottom: 0 !important; }
-  .wsite-header img { width: 100% !important; height: auto !important; object-fit: cover; display: block; }
+  .wsite-header img { width: 100% !important; height: auto !important; object-fit: fill; display: block; }
   .our-network-logos img { max-width: 100px; height: auto; margin: 0.5em; display: inline-block; }
   .our-network-logos { text-align: center; }
   h1, h2, h3, h4, h5, h6 { font-weight: normal !important; }
