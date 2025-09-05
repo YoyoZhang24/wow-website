@@ -583,7 +583,8 @@ h1, h2, h3, h4, h5, h6 { font-weight: normal !important; -webkit-font-smoothing:
   .our-network-logos img { max-width: 100px; height: auto; margin: 0.5em; display: inline-block; }
   .our-network-logos { text-align: center; }
   h1, h2, h3, h4, h5, h6 { font-weight: normal !important; }
-  strong, b { font-weight: normal !important; }
+  h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong { font-weight: bold !important; }
+  .content-color-box-wrapper strong, .content-color-box-wrapper b { font-weight: normal !important; }
   
   /* Reduce excessive spacing on mobile */
   .wsite-spacer[style*="height:50px"] { height: 20px !important; }
